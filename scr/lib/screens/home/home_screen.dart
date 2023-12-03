@@ -98,7 +98,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     onPressed: () {
                       setState(
                         () {
-                          decryptText = encryptText.text;
+                          //Call decrypt function
                         },
                       );
                     },
@@ -151,7 +151,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     onPressed: () {
                       setState(
                         () {
-                          decryptText = encryptText.text;
+                          //Copy function
                         },
                       );
                     },
@@ -171,7 +171,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     onPressed: () {
                       setState(
                         () {
-                          decryptText = encryptText.text;
+                          //Copy function
                         },
                       );
                     },
